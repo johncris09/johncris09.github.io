@@ -68,7 +68,7 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>My Porfolio</span></strong>. All Rights Reserved
+        &copy; Copyright <span id="year"></span><strong><span> My Porfolio</span></strong>. All Rights Reserved
       </div> 
     </div>
   </footer> 
@@ -89,6 +89,10 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script> 
   <script src="assets/js/main.js"></script>
+  <script>
+    var date = new Date();
+    $('#year').html(date.getFullYear());
+  </script>     
 
 </body>
 
